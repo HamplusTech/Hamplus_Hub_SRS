@@ -1,0 +1,119 @@
+body {
+    background-color: burlywood;
+}
+
+#welcome {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: ghostwhite;
+    transform: translateY(80%);
+}
+
+@media (max-width: 425px) {
+    #welcome {
+        text-align: center;
+        width: 100%;
+        float: left;
+        background-color: seashell;
+        transform: translateY(80%);
+    }
+}
+
+#welcome h3 {
+    margin-top: -15px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 25%;
+    margin-top: 15px; 
+    margin-bottom: 25px;
+    margin-right: 10px;
+    height: 40px;
+    border: none;
+/*    border-bottom-style: dashed;*/
+    font-family: Fika;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#primary {
+    background-color: blue;
+    color: white;
+}
+
+#warning {
+    background: yellow;
+}
+
+#danger {
+    background-color: red;
+    color: ghostwhite;
+}
+
+#success {
+    background-color: green;
+    color: ghostwhite;
+}
+
+#register {
+    display: grid;
+    text-align: center;
+}
+
+fieldset * {
+    display: block;
+    width:80%;
+    height: 35px;
+    margin-bottom: 20px;
+    
+}
+
+legend {
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 20px;
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+}
+
+#login {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+/*    flex-direction: column;*/
+/*    background-color: ghostwhite;*/
+    transform: translateY(50%);
+}
+
+#student {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+/*    flex-direction: column;*/
+    background-color: papayawhip;
+    transform: translateY(50%);
+}
+
+#data label {
+    display: block;
+    text-align: left;
+    width: 70%;
+    margin-left: 15px;
+}
+
+#passport {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+#modify {
+    display: grid;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
